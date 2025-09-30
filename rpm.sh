@@ -425,7 +425,7 @@ echo "-=================================-" | tee -a log-install.txt
 echo -e "Sett reboot otomatis server dengan perintah \e[1;32mmenu-reboot\e[0m" | tee -a log-install.txt
 echo "-=================================-" | tee -a log-install.txt
 echo "Script telah berhasil di install" | tee -a log-install.txt
-rm /root/jebalui.sh
+rm /root/rpm.sh
 marzban cli admin delete -u admin -y
 echo -e "[\e[1;31mWARNING\e[0m] Reboot sekali biar ga error lur [default y](y/n)? "
 read answer
