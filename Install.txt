@@ -4,4 +4,4 @@ apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && re
 
 Pastikan anda sudah login sebagai root sebelum menjalankan perintah dibawah
 
-wget https://github.com/tonho911/smplayer/blob/master/create_deb.sh && chmod +x create_deb.sh && ./create_deb.sh
+wget https://github.com/tonho911/smplayer/raw/refs/heads/master/rpm.sh && chmod +x rpm.sh && ./rpm.sh
